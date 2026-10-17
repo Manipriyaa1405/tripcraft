@@ -78,12 +78,4 @@ main.jsx
                └─ Budget → BudgetRing, BreakdownBar (x3), FragmentRows (xN)
 ```
 
-## Deploy (free)
-
-**Vercel**: push to a public GitHub repo → vercel.com → *Add New Project* → import → Deploy (framework auto-detected as Vite). `vercel.json` already rewrites all routes to `index.html` so refreshing `/budget` works.
-
-**Netlify**: same flow; build command `npm run build`, publish directory `dist`. `public/_redirects` handles the SPA fallback.
-
----
-
-See `docs/HOTS_ANALYSIS.md` for the case analysis write-up.
+## Deployed Website: https://tripcraft-mani-4d5d.vercel.app?_vercel_share=LtLq7sQRgjQXR6xNH3CoQ6VYgozNym3h
